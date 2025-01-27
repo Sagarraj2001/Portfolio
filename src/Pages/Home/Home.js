@@ -89,7 +89,7 @@ const Home = () => {
                 className="rounded-circle bg-warning d-flex justify-content-center align-items-center mx-2"
                 style={{ width: "50px", height: "50px" }}
               >
-                <a href="https://www.linkedin.com/in/sagar-raj-030697234?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noreferrer">
+                <a href="/" target="_blank" rel="noreferrer">
                 <ion-icon
                   name="logo-instagram"
                   style={{ color: "#0C2340", fontSize: "24px" }}
