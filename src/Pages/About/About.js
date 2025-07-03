@@ -85,7 +85,7 @@ function About() {
                   With expertise in modern web technologies like ReactJS, Bootstrap, and more, I aim to build exceptional digital experiences. Whether it's designing responsive layouts or optimizing frontend performance, I thrive on solving complex problems.
                 </p>
                 <p>Let's collaborate to bring your ideas to life!</p>
-                <a href="https://drive.google.com/file/d/1n9b-8zyHQY_pUV8JEUG-22B7a8C6gNzr/view?usp=sharing" className="btn btn-primary mt-3" target='_blank' rel="noreferrer">
+                <a href="https://drive.google.com/file/d/1IqJMPWn9qqgvPNOBKe5rR8fmnRfx9YzK/view?usp=drivesdk" className="btn btn-primary mt-3" target='_blank' rel="noreferrer">
                   Click Here
                 </a>
               </div>
