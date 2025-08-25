@@ -16,7 +16,7 @@ function Project() {
                 });
             },
             {
-                threshold: 0.2, // Trigger animation when 20% of the section is visible
+                threshold: 0.2, 
             }
         );
 
@@ -112,3 +112,4 @@ function Project() {
 }
 
 export default Project;
+
