@@ -10,12 +10,12 @@ const Home = () => {
           if (entry.isIntersecting) {
             entry.target.classList.add("animate-section");
           } else {
-            entry.target.classList.remove("animate-section"); // Remove class to allow repeated animation
+            entry.target.classList.remove("animate-section"); 
           }
         });
       },
       {
-        threshold: 0.5, // Trigger animation when 50% of the section is visible
+        threshold: 0.5, 
       }
     );
 
@@ -39,7 +39,7 @@ const Home = () => {
         className="container-fluid d-flex align-items-center min-vh-100 text-white"
       >
         <div className="row w-100">
-          {/* Left Content */}
+         
           <div className="col-12 col-md-6 text-md-left px-5">
             <h1 className="display-4 font-weight-bold">
               Hi There,<br /> I'm Sagar <span className="text-warning">Raj</span>
@@ -54,7 +54,7 @@ const Home = () => {
               About Me
             </a>
 
-            {/* Circle Icons Section */}
+            
             <div className="d-flex justify-content-start align-items-center mt-4">
               <div
                 className="rounded-circle bg-warning d-flex justify-content-center align-items-center mx-2"
@@ -98,7 +98,7 @@ const Home = () => {
             </div>
           </div>
 
-          {/* Right Image */}
+          
           <div className="col-12 col-md-6 text-center mt-3">
             <img
               src={`${process.env.PUBLIC_URL}/home.jpg`}
@@ -131,3 +131,4 @@ const Home = () => {
 };
 
 export default Home;
+
