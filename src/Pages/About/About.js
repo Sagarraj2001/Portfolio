@@ -10,12 +10,12 @@ function About() {
           if (entry.isIntersecting) {
             entry.target.classList.add('animate-section');
           } else {
-            entry.target.classList.remove('animate-section'); // Remove class to allow repeated animation
+            entry.target.classList.remove('animate-section'); 
           }
         });
       },
       {
-        threshold: 0.5, // Trigger when 50% of the section is visible
+        threshold: 0.5,
       }
     );
 
@@ -85,7 +85,7 @@ function About() {
                   With expertise in modern web technologies like ReactJS, Bootstrap, and more, I aim to build exceptional digital experiences. Whether it's designing responsive layouts or optimizing frontend performance, I thrive on solving complex problems.
                 </p>
                 <p>Let's collaborate to bring your ideas to life!</p>
-                <a href="https://drive.google.com/file/d/1IqJMPWn9qqgvPNOBKe5rR8fmnRfx9YzK/view?usp=drivesdk" className="btn btn-primary mt-3" target='_blank' rel="noreferrer">
+                <a href="https://drive.google.com/file/d/1Ys5Tq_30nI1AKd25ZvPk6IdBtxRaRBkH/view?usp=drive_link" className="btn btn-primary mt-3" target='_blank' rel="noreferrer">
                   Click Here
                 </a>
               </div>
@@ -98,3 +98,4 @@ function About() {
 }
 
 export default About;
+
