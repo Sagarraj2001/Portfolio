@@ -11,12 +11,12 @@ function Contact() {
           if (entry.isIntersecting) {
             entry.target.classList.add("animate-section");
           } else {
-            entry.target.classList.remove("animate-section"); // Remove class to allow repeated animation
+            entry.target.classList.remove("animate-section");
           }
         });
       },
       {
-        threshold: 0.5, // Trigger animation when 50% of the section is visible
+        threshold: 0.5,
       }
     );
 
@@ -52,7 +52,7 @@ function Contact() {
 
     if (res.success) {
       alert("Thanks for Contacting! We will reply to you soon.");
-      formRef.current.reset(); // Reset the form fields
+      formRef.current.reset(); 
     }
   };
 
@@ -146,3 +146,4 @@ function Contact() {
 }
 
 export default Contact;
+
