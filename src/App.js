@@ -10,7 +10,6 @@ import { useEffect } from "react";
 
 function App() {
   useEffect(() => {
-    // Scroll to the top of the page on reload
     window.scrollTo(0, 0);
   }, []);
   return (
