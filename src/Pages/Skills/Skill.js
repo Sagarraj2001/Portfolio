@@ -11,12 +11,12 @@ function Skill() {
           if (entry.isIntersecting) {
             entry.target.classList.add('animate-skill');
           } else {
-            entry.target.classList.remove('animate-skill'); // Allow repeated animation
+            entry.target.classList.remove('animate-skill'); 
           }
         });
       },
       {
-        threshold: 0.2, // Trigger animation when 20% of the section is visible
+        threshold: 0.2,
       }
     );
 
@@ -41,6 +41,11 @@ function Skill() {
         <div className="d-flex align-items-center justify-content-center m-3">
           <div className="row justify-content-center row-cols-2 row-cols-md-5 g-4">
             <SkillCard
+              src={`${process.env.PUBLIC_URL}/image/java.png`}
+              alt="Java Icon"
+              title="Java"
+            />
+            <SkillCard
               src={`${process.env.PUBLIC_URL}/image/html.png`}
               alt="Html Icon"
               title="HTML 5"
@@ -56,19 +61,24 @@ function Skill() {
               title="JavaScript"
             />
             <SkillCard
-              src={`${process.env.PUBLIC_URL}/image/nodejs.png`}
-              alt="Nodejs Icon"
-              title="Node Js"
+              src={`${process.env.PUBLIC_URL}/image/Spring.png`}
+              alt="Spring Icon"
+              title="Spring"
             />
             <SkillCard
-              src={`${process.env.PUBLIC_URL}/image/express.png`}
-              alt="Express Js Icon"
-              title="Express Js"
+              src={`${process.env.PUBLIC_URL}/image/SpringBoot.png`}
+              alt="SpringBoot Icon"
+              title="SpringBoot Js"
             />
             <SkillCard
-              src={`${process.env.PUBLIC_URL}/image/mongoDb.png`}
-              alt="Mongo DB Icon"
-              title="MongoDB"
+              src={`${process.env.PUBLIC_URL}/image/MySQL.png`}
+              alt="MySQL Icon"
+              title="MySQL"
+            />
+            <SkillCard
+              src={`${process.env.PUBLIC_URL}/image/bootstrap.png`}
+              alt="Bootstrap Icon"
+              title="Bootstrap"
             />
             <SkillCard
               src={`${process.env.PUBLIC_URL}/image/react.png`}
@@ -90,11 +100,7 @@ function Skill() {
               alt="Netlify Icon"
               title="Netlify"
             />
-            <SkillCard
-              src={`${process.env.PUBLIC_URL}/image/java.png`}
-              alt="Java Icon"
-              title="Java"
-            />
+            
             <SkillCard
               src={`${process.env.PUBLIC_URL}/image/api.png`}
               alt="Api Icon"
