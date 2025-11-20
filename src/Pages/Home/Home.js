@@ -45,7 +45,7 @@ const Home = () => {
               Hi There,<br /> I'm Sagar <span className="text-warning">Raj</span>
             </h1>
             <p className="h3 font-weight-bold text-light mt-3">
-              I am a <span className="text-warning">web developer</span>
+              I am a <span className="text-warning">Java Full Stack Developer</span>
             </p>
             <a
               href="#about"
