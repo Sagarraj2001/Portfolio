@@ -78,14 +78,15 @@ function About() {
                 </div>
               </div>
               <div className="col-md-6 text-light">
-                <p className="lead">
-                  Hi, I'm <span className="text-warning">Sagar Raj,</span> a passionate web developer with a knack for crafting clean, efficient, and user-friendly web applications.
-                </p>
-                <p>
-                  With expertise in modern web technologies like ReactJS, Bootstrap, and more, I aim to build exceptional digital experiences. Whether it's designing responsive layouts or optimizing frontend performance, I thrive on solving complex problems.
-                </p>
+              <p className="lead">
+  Hi, I'm <span className="text-warning">Sagar Raj,</span> a passionate Java Full-Stack Developer with a strong focus on building scalable, efficient, and user-centric applications.
+</p>
+<p>
+  With hands-on expertise in Java, Spring Boot, ReactJS, and modern web technologies, I specialize in developing robust backend architectures and seamless frontend experiences. Whether it's designing RESTful APIs, optimizing database performance, or building responsive interfaces, I enjoy solving real-world engineering challenges end-to-end.
+</p>
+
                 <p>Let's collaborate to bring your ideas to life!</p>
-                <a href="https://drive.google.com/file/d/1Ys5Tq_30nI1AKd25ZvPk6IdBtxRaRBkH/view?usp=drive_link" className="btn btn-primary mt-3" target='_blank' rel="noreferrer">
+                <a href="https://drive.google.com/file/d/154W912htwo61uSLFbB0LlWtNDlL1N4pK/view?usp=drive_link" className="btn btn-primary mt-3" target='_blank' rel="noreferrer">
                   Click Here
                 </a>
               </div>
@@ -98,4 +99,5 @@ function About() {
 }
 
 export default About;
+
 
